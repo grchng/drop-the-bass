@@ -34,7 +34,10 @@
 body {
   background-image: url(../img/brick.jpg);
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
 
 .heading-primary {
   color: white;
@@ -53,6 +56,20 @@ body {
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%); }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
 
 body, html {
   font-family: sans-serif;
@@ -80,6 +97,7 @@ body, html {
   text-shadow: 0 0 .5rem black; }
 
 .playing {
+  background: rgba(255, 255, 255, 0.842);
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600; }
