@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+
+.heading-primary {
+    color: white;
+  
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+
+    text-shadow: 0 -40px 100px, 
+                0 0 2px, 
+                0 0 1em $color-secondary,
+                0 0 .2em $color-primary,
+                0 0 0.1em $color-primary, 
+                0 15px 3px $color-black;
+
+    b span {
+        animation: flicker linear infinite 2s;
+
+        &:nth-type(2) {
+            animation: flicker linear infinite 3s;   
+        }
+    }
+    
+}

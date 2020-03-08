@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+// BACKGROUND
+    background-image: url(../img/brick.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
