@@ -1,7 +1,6 @@
 "use strict";
 // 1 --- GET USER INPUT TO PLAY AUDIO ---
 window.addEventListener('click', playSound);
-window.addEventListener('touchstart', playSound);
 function playSound(e) {
     console.log(e); // 
     const audio = document.querySelector(`audio[data-key="${e.toElement.innerHTML}"]`);
