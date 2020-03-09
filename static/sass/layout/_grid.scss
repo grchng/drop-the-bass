@@ -1,20 +1,21 @@
 .row {
-    max-width: $grid-width;
+    display: flex;
+    flex-wrap:wrap;
     // center blocks
     margin: 0 auto;
 
     &:not(:last-child) {
-        margin-bottom: $gutter-vertical;
+        margin-bottom: 0;
     }
     
-    @include clearfix;
+    // @include clearfix;
 
-    [class^="col-"] {
-        float: left;
+    // [class^="col-"] {
+    //     float: left;
 
-        &:not(:last-child) {
-            margin-right: $gutter-horizontal;
-        }
+    //     &:not(:last-child) {
+    //         margin-right: $gutter-horizontal;
+    //     }
 
-    }
+    // }
 }

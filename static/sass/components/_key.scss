@@ -8,7 +8,6 @@
   .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
   }
@@ -28,10 +27,11 @@
   }
   
   .playing {
-    background: rgba(255, 255, 255, 0.842);
+    background: #ffffff8e;
     transform: scale(1.1);
     border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    text-shadow: 0 -40px 100px;
+    box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.699), 0 2px 20px 0 rgba(255, 187, 0, 0.699);
   }
   
   kbd {
@@ -41,6 +41,7 @@
   
   .sound {
     font-size: 1.2rem;
+    font-weight: 700rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;

@@ -10,7 +10,16 @@ function playSound(e) {
     audio.volume= 0.3; // volume level
     audio.loop = false;
     audio.play(); 
+
+    // 2 --- KEY ANIMATION  ---
+    const key = document.querySelector(`.key[data-key="${e.target.id}"]`); 
+    console.log(key);
+    // add class="playing" to key element
+    key.classList.add('playing');
 }
+
+
+// ----------------------------------------------------------------------------
 //     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`); 
 //     // const audio = document.querySelector(`audio[data-key="${e.target.innerText}"]`); // to click on buttons
 //     console.log(audio);
@@ -23,8 +32,6 @@ function playSound(e) {
 //     // document.querySelector(audio[data-key="#"]).play()
 //     audio.play(); // if audio is already playing, it will not play again
     
-
-
 //     // 2 --- KEY ANIMATION ---
 //     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`); 
 //     console.log(key);
@@ -34,6 +41,8 @@ function playSound(e) {
 //     // key.classList.remove('playing');
 //     // key.classList.toggle('playing');
 // }
+
+
 //     // 4
 //     // FUNCTION that will remove transitionend listener
 //     function removeTransition(e) {
