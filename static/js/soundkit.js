@@ -3,8 +3,8 @@
 window.addEventListener('click', playSound);
 function playSound(e) {
     console.log(e); // 
-    const audio = document.querySelector(`audio[data-key="${e.toElement.innerHTML}"]`);
-    console.log(audio);
+    const audio = document.querySelector(`audio[data-key="${e.target.id}"]`);
+    console.log("audio",audio);
     if (!audio) return;
     audio.currentTime = 0; // set current time to 0sec
     audio.volume= 0.3; // volume level
