@@ -31,22 +31,43 @@
   padding: 0;
   box-sizing: inherit; }
 
+html {
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 45%; } }
+  @media (max-width: 32.5em) {
+    html {
+      font-size: 37%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 65%; } }
+
 body {
   background-image: url(../img/brick.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; }
+  background-position: center;
+  box-sizing: border-box;
+  padding: 3rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0 !important; } }
 
 .heading-primary {
-  position: absolute;
-  top: 15%;
+  text-align: center;
+  top: 50%;
   left: 50%;
-  bottom: auto;
+  position: absolute;
   transform: translate(-50%, -50%);
+  display: block;
   color: white;
-  font-size: 6rem;
+  font-size: 10rem;
   font-weight: 700;
   font-family: 'Pacifico', cursive;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ffae00, 0 0 0.2em #ffd000, 0 0 0.1em #ffd000, 0 15px 3px black; }
@@ -54,9 +75,24 @@ body {
     animation: flicker linear infinite 2s; }
     .heading-primary b span:nth-type(2) {
       animation: flicker linear infinite 3s; }
+  @media (max-width: 32.5em) {
+    .heading-primary {
+      font-size: 15rem;
+      text-align: center;
+      width: 50vw;
+      height: 25vh; } }
 
 .header {
-  height: 20vh; }
+  height: 95vh;
+  position: relative; }
+  .header__text-box {
+    position: absolute;
+    /* top & bottom in relation to the parent */
+    top: 40%;
+    left: 50%;
+    /* in relation to the element itself */
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 .row {
   display: flex;
@@ -108,5 +144,7 @@ kbd {
   color: #ffc600; }
 
 .section-launchpad {
-  background-image: white;
-  padding: 30rem 0 38rem 0; }
+  padding: 0rem 5rem 0 5rem; }
+  @media (max-width: 56.25em) {
+    .section-launchpad {
+      padding: 5rem 0 15rem 0; } }

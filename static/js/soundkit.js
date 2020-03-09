@@ -1,6 +1,7 @@
 "use strict";
 // 1 --- GET USER INPUT TO PLAY AUDIO ---
 window.addEventListener('click', playSound);
+window.addEventListener('dbleclick', stopSound);
 function playSound(e) {
     console.log(e); // 
     const audio = document.querySelector(`audio[data-key="${e.target.id}"]`);
@@ -18,30 +19,14 @@ function playSound(e) {
     key.classList.add('playing');
 }
 
-
-// ----------------------------------------------------------------------------
-//     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`); 
-//     // const audio = document.querySelector(`audio[data-key="${e.target.innerText}"]`); // to click on buttons
-//     console.log(audio);
-//     // if there is no audio
-//     if(!audio) return; // stop the function from running
-//     audio.currentTime = 0;  // rewind audio to 0s
-//     // play audio
-//     audio.volume = 0.2; // volume level
-//     audio.loop = true; 
-//     // document.querySelector(audio[data-key="#"]).play()
-//     audio.play(); // if audio is already playing, it will not play again
-    
-//     // 2 --- KEY ANIMATION ---
-//     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`); 
-//     console.log(key);
-//     // add class="playing" to key element
-//     // jQuery --> key.addClass('playing')
-//     key.classList.add('playing');
-//     // key.classList.remove('playing');
-//     // key.classList.toggle('playing');
-// }
-
+const stopSound = function(e) {
+    const audio = document.querySelector(`audio[data-key="${e.target.id}"]`);
+    console.log("audio",audio);
+    if (!audio) return;
+    audio.pause();
+    audio.currentTime = 0;
+    console.log("audio pause");
+}
 
 //     // 4
 //     // FUNCTION that will remove transitionend listener

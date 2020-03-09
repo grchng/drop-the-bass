@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
 
+
 .heading-primary {
-    position: absolute;
-    top: 15%;
+    text-align: center;
+    top:50%;
     left: 50%;
-    bottom: auto;
-    transform: translate(-50%, -50%);  
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: block;
     color: white;
-    font-size: 6rem;
+    font-size: 10rem;
     font-weight: 700;
     font-family: 'Pacifico', cursive;
 
@@ -25,5 +27,13 @@
         &:nth-type(2) {
             animation: flicker linear infinite 3s;   
         }
-    }   
+    }
+
+    @include respond(phone) {
+        font-size: 15rem;
+        text-align: center;
+        width:50vw;
+        height: 25vh;
+        
+    }
 }

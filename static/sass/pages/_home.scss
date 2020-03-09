@@ -1,4 +1,7 @@
 .section-launchpad {
-    background-image:$color-white;
-    padding: 30rem 0 38rem 0; 
+    padding:0rem 5rem 0 5rem;
+@include respond(tab-port) {
+    padding: 5rem 0 15rem 0;
+}
+
 }

@@ -1,3 +1,17 @@
+
 .header {
-    height: 20vh;
+    height: 95vh;
+    position: relative;
+
+    
+    // .header__text-box
+    &__text-box {
+        position: absolute;
+        /* top & bottom in relation to the parent */
+        top: 40%;
+        left: 50%;
+        /* in relation to the element itself */
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
