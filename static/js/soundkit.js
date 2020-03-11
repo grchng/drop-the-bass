@@ -9,7 +9,7 @@ const playSound = function (audio) {
     audio.volume = 0.4;
     audio.play();
 }
-const addLightEffects = function (key) {
+const addLightEffects = function (key, audio) {
     key.classList.add('playing'); // add class="playing" to key element
     audio.classList.add('playing');
 }
@@ -19,7 +19,7 @@ function tapSound(e) {
     playSound(audio);
 
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-    addLightEffects(key);
+    addLightEffects(key, audio);
 }
 
 function clickSound(e) {
@@ -27,7 +27,7 @@ function clickSound(e) {
     playSound(audio);
     
     const key = document.querySelector(`.key[data-key="${e.target.id}"]`);
-    addLightEffects(key);
+    addLightEffects(key, audio);
 }
 
 function removeTransition(e) {
@@ -36,16 +36,13 @@ function removeTransition(e) {
         // then go to that div and remove the playing class
         // if (e.srcElement.paused == "true") {
         // this.classList.remove('playing');
+    
     console.log('event', e);
     console.log('this:', this);
 }
 
-
-// Ydocument.getElementById("myAudio").onended = function() {myFunction()};
-// 3 -- Transition listener -- border colors/box shadow/transform
-// const audio = document.querySelector(`audio[data-key="${e.target.id}"]`);
 const keys = document.querySelectorAll('.key');
-// keys.forEach(key => key.addEventListener('ended',removeTransition));
+keys.forEach(key => key.addEventListener('transitionend',removeTransition));
 
 
 
