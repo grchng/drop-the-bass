@@ -6,7 +6,7 @@ function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.target.id}"]`);
     if (!audio) return;
     audio.currentTime = 0; // set current time to 0sec
-    audio.volume= 0.1; // volume level
+    audio.volume= 0.4; // volume level
     // audio.loop = false;
     audio.play(); 
     
@@ -32,10 +32,10 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key');
 // keys.forEach(key => key.addEventListener('ended',removeTransition));
 
-
-const rees = document.getElementById('audio-col0').querySelectorAll(".col0");
-rees.forEach(ree => ree.muted="true");
-console.log(rees);
+// code for muting audio
+// const rees = document.getElementById('audio-col0').querySelectorAll(".col0");
+// rees.forEach(ree => ree.muted="true");
+// console.log(rees);
 
 
 
