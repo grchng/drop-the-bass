@@ -22,7 +22,7 @@
     <!-- MAIN -->
     <main>
          <section class="section-launchpad">
-             <!-- ROW 1 -->
+             <!-- ROW  0 -->
              <div class="row">
                  <div class="keys">
                     <div data-key="00" class="key">
@@ -59,25 +59,27 @@
                     </div>
                  </div>
              </div>
-             <div id="audio-col1">
-                <audio data-key="10" src="" preload="auto"></audio>
-                <audio data-key="11" src="" proload="auto"></audio>
-                <audio data-key="12" src="wubwub\boom\808 1 - C.wav" preload ="auto"></audio>
-                <audio data-key="13" src="wubwub\synth-drop-loop\Drop Loop 5 - 150 BPM C Min.wav" loop proload="auto"></audio>
-                <audio data-key="14" src="wubwub\synth-drop-loop\Drop Loop 8 - 150 BPM D Min.wav" proload="auto"></audio>
-                <audio data-key="15" src="wubwub\synth-drop-loop\Drop Loop 12 - 150 BPM D shp Min.wav" proload="auto"></audio>
-                <audio data-key="16" src="wubwub\synth-drop-loop\Drop Loop 13 - 150 BPM D shpMin.wav" proload="auto"></audio>
-                <audio data-key="17" src="wubwub\fx\FX 17 - Zap.wav" proload="auto"></audio>
+              <!-- AUDIO 1-->  
+            <div id="audio-col0">
+                <audio class="col0" data-key="00" src="wubwub\drum-fill\Drum Loop 5 - 150 BPM.wav"></audio>
+                <audio class="col0" data-key="01" src="wubwub\drum-fill\Drum Loop 8 - 150 BPM.wav"></audio>
+                <audio class="col0" data-key="02" src="wubwub\boom\808 1 - C.wav"></audio>
+                <audio class="col0" data-key="03" src="wubwub\synths\synth-drop-loop\Drop Loop 4 - 147 BPM D shp Min.wav"></audio>
+                <audio class="col0"data-key="04" src="wubwub\synths\synth-drop-loop\Drop Loop 14 - 150 BPM E Min.wav"></audio>
+                <audio class="col0"data-key="05" src="wubwub\synths\synth-drop-loop\Drop Loop 15 - 150 BPM E Min.wav"></audio>
+                <audio class="col0" data-key="06" src="wubwub\synths\synth-drop-loop\Drop Loop 17 - 150 BPM E Min.wav"></audio>
+                <audio class="col0" data-key="07" src="wubwub\vocal\Chant\Cymatics - Trap City Chant 5 - Waoh.wav"></audio>
             </div>
-             <!-- ROW 2 -->
+       
+             <!-- ROW 1 -->
              <div class="row">
                 <div class="keys">
                    <div data-key="10" class="key">
-                       <kbd>10</kbd>
+                       <kbd id="10">10</kbd>
                        <span class="sound">Drums</span>
                    </div>
                    <div data-key="11" class="key">
-                       <kbd>11</kbd>
+                       <kbd id="11">11</kbd>
                        <span class="sound">Drums</span>
                    </div>
                    <div data-key="12" class="key">   
@@ -85,7 +87,7 @@
                        <span class="sound">Boom</span>
                    </div>
                    <div data-key="13" class="key">
-                       <kbd id="13">C</kbd>
+                       <kbd id="13">13</kbd>
                        <span class="sound">Melody</span>
                    </div>
                    <div data-key="14" class="key">
@@ -101,13 +103,26 @@
                        <span class="sound">Melody</span>
                    </div>
                    <div data-key="17" class="key">
-                       <kbd id="17">&nbsp;</kbd>
+                        <kbd id="17">&nbsp;</kbd>
                        <span class="sound">FX</span>
                    </div>
                 </div>
             </div>
 
-        <!-- ROW 3 -->
+<!-- AUDIO 1-->  
+            <div id="audio-col1">
+                <audio class="col1" data-key="10" src="wubwub\drum-fill\Drum Loop 12 - 160 BPM.wav"></audio>
+                <audio class="col1" data-key="11" src="wubwub\drum-fill\Drum Loop 13 - 164 BPM.wav"></audio>
+                <audio class="col1" data-key="12" src="wubwub\boom\808 5 - C shp.wav"></audio>
+                <audio class="col1" data-key="13" src="wubwub\synths\synth-drop-loop\Drop Loop 20 - 150 BPM E Min.wav"></audio>
+                <audio class="col1" data-key="14" src="wubwub\synths\synth-drop-loop\Drop Loop 33 - 150 BPM G Min.wav"></audio>
+                <audio class="col1"data-key="15" src="wubwub\synths\synth-drop-loop\Drop Loop 34 - 150 BPM G shp Min.wav"></audio>
+                <audio class="col1" data-key="16" src="wubwub\synths\synth-drop-loop\Drop Loop 26 - 150 BPM F Min.wav"></audio>
+                <audio class="col1" data-key="17" src="wubwub\fx\FX 13 - Baby Chipmunk.wav"></audio>
+            </div>
+       
+
+        <!-- ROW 2 -->
             <div class="row">
                 <div class="keys">
                    <div data-key="20" class="key">
@@ -143,6 +158,19 @@
                        <span class="sound">FX</span>
                    </div>
                 </div>
+            </div>
+
+
+            <!-- AUDIO 2-->  
+            <div id="audio-col2">
+                <audio class="col2" data-key="20" src=""></audio>
+                <audio class="col1" data-key="11" src=""></audio>
+                <audio class="col1" data-key="12" src=""></audio>
+                <audio class="col1" data-key="13" src=""></audio>
+                <audio class="col1" data-key="14" src=""></audio>
+                <audio class="col1"data-key="15" src=""></audio>
+                <audio class="col1" data-key="16" src=""></audio>
+                <audio class="col1" data-key="17" src=""></audio>
             </div>
 
             <!-- row 4 -->
@@ -181,6 +209,17 @@
                        <span class="sound">FX</span>
                    </div>
                 </div>
+            </div>
+
+            <div id="audio-col3">
+                <audio class="col2" data-key="20" src=""></audio>
+                <audio class="col1" data-key="11" src=""></audio>
+                <audio class="col1" data-key="12" src=""></audio>
+                <audio class="col1" data-key="13" src=""></audio>
+                <audio class="col1" data-key="14" src=""></audio>
+                <audio class="col1"data-key="15" src=""></audio>
+                <audio class="col1" data-key="16" src=""></audio>
+                <audio class="col1" data-key="17" src=""></audio>
             </div>
 
             <div class="row">
@@ -333,18 +372,7 @@
 
             
 
-            <!-- AUDIO -->  
-            <div id="audio-col0">
-                <audio class="col0" data-key="00" src=""></audio>
-                <audio class="col0"data-key="01" src=""></audio>
-                <audio  class="col0"data-key="02" src="wubwub\boom\808 1 - C.wav"></audio>
-                <audio class="col0"data-key="03" src="wubwub\synth-drop-loop\Drop Loop 5 - 150 BPM C Min.wav" loop></audio>
-                <audio class="col0"data-key="04" src="wubwub\synth-drop-loop\Drop Loop 8 - 150 BPM D Min.wav"></audio>
-                <audio class="col0"data-key="05" src="wubwub\synth-drop-loop\Drop Loop 12 - 150 BPM D shp Min.wav"></audio>
-                <audio class="col0" data-key="06" src="wubwub\synth-drop-loop\Drop Loop 13 - 150 BPM D shpMin.wav"></audio>
-                <audio class="col0" data-key="07" src="wubwub\fx\FX 17 - Zap.wav"></audio>
-            </div>
-       
+           
 
          </section>
     </main>
