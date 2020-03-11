@@ -27,29 +27,29 @@
 @keyframes rotate {
   0% {
     border-top-color: #9ccee4;
-    border-right-color: rgba(140, 177, 255, 0.63);
+    border-right-color: skyblue;
     border-bottom-color: #ffb126;
-    border-left-color: rgba(241, 188, 41, 0.966); }
+    border-left-color: #f1a129; }
   25% {
     border-right-color: #9ccee4;
-    border-bottom-color: rgba(140, 177, 255, 0.63);
+    border-bottom-color: skyblue;
     border-left-color: #ffb126;
-    border-top-color: rgba(241, 188, 41, 0.966); }
-  50% {
+    border-top-color: #f1a129; }
+  40% {
     border-bottom-color: #9ccee4;
-    border-left-color: rgba(140, 177, 255, 0.63);
+    border-left-color: skyblue;
     border-top-color: #ffb126;
-    border-right-color: rgba(241, 188, 41, 0.966); }
+    border-right-color: #f1a129; }
   75% {
     border-left-color: #9ccee4;
-    border-top-color: rgba(140, 177, 255, 0.63);
+    border-top-color: skyblue;
     border-right-color: #ffb126;
-    border-bottom-color: rgba(241, 188, 41, 0.966); }
+    border-bottom-color: #f1a129; }
   100% {
     border-top-color: #9ccee4;
-    border-right-color: rgba(140, 177, 255, 0.63);
+    border-right-color: skyblue;
     border-bottom-color: #ffb126;
-    border-left-color: rgba(241, 188, 41, 0.966); } }
+    border-left-color: #f1a129; } }
 
 *,
 *::before,

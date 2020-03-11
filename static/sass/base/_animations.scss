@@ -36,32 +36,32 @@
   @keyframes rotate {
     0% {
       border-top-color:  rgba(156, 206, 228, 1);
-      border-right-color: rgba(140, 177, 255, 0.63);
+      border-right-color: skyblue;
       border-bottom-color: rgba(255, 177, 38, 1);
-      border-left-color: rgba(241, 188, 41, 0.966);
+      border-left-color: rgb(241, 161, 41);
     }
     25% {
       border-right-color:  rgba(156, 206, 228, 1);
-      border-bottom-color: rgba(140, 177, 255, 0.63);
+      border-bottom-color: skyblue;
       border-left-color: rgba(255, 177, 38, 1);
-      border-top-color: rgba(241, 188, 41, 0.966);
+      border-top-color: rgb(241, 161, 41);
     }
-    50% {
+    40% {
       border-bottom-color:  rgba(156, 206, 228, 1);
-      border-left-color: rgba(140, 177, 255, 0.63);
+      border-left-color: skyblue;
       border-top-color: rgba(255, 177, 38, 1);
-      border-right-color: rgba(241, 188, 41, 0.966);
+      border-right-color: rgb(241, 161, 41);
     }
     75% {
       border-left-color:  rgba(156, 206, 228, 1);
-      border-top-color: rgba(140, 177, 255, 0.63);
+      border-top-color: skyblue;
       border-right-color: rgba(255, 177, 38, 1);
-      border-bottom-color: rgba(241, 188, 41, 0.966);
+      border-bottom-color: rgb(241, 161, 41);
     }
     100% {
             border-top-color:  rgba(156, 206, 228, 1);
-      border-right-color: rgba(140, 177, 255, 0.63);
+      border-right-color: skyblue;
       border-bottom-color: rgba(255, 177, 38, 1);
-      border-left-color: rgba(241, 188, 41, 0.966);
+      border-left-color: rgb(241, 161, 41);
     }
   }
