@@ -156,9 +156,7 @@ body, html {
   transform: scale(1.1);
   border-color: #ffc600;
   text-shadow: 0 -40px 100px;
-  box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.699), 0 2px 20px 0 rgba(255, 187, 0, 0.699);
-  transition: red 0.25s;
-  animation: rotate 2s infinite; }
+  box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.699), 0 2px 20px 0 rgba(255, 187, 0, 0.699); }
 
 kbd {
   display: block;
