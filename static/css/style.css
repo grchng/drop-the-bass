@@ -24,6 +24,18 @@
     color: inherit;
     text-shadow: inherit; } }
 
+@keyframes rotate {
+  from {
+    border-top-color: #9ccee4;
+    border-right-color: #7ab78e;
+    border-bottom-color: #ffb126;
+    border-left-color: #f18b29; }
+  to {
+    border-top-color: #9ccee4;
+    border-right-color: #7ab78e;
+    border-bottom-color: #ffb126;
+    border-left-color: #f18b29; } }
+
 *,
 *::before,
 *::after {
@@ -129,7 +141,9 @@ body, html {
   transform: scale(1.1);
   border-color: #ffc600;
   text-shadow: 0 -40px 100px;
-  box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.699), 0 2px 20px 0 rgba(255, 187, 0, 0.699); }
+  box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.699), 0 2px 20px 0 rgba(255, 187, 0, 0.699);
+  transition: red 0.25s;
+  animation: rotate 2s infinite; }
 
 kbd {
   display: block;

@@ -31,3 +31,18 @@
       text-shadow: inherit;
     }
   }
+
+  @keyframes rotate {
+    from {
+    border-top-color:  rgba(156, 206, 228, 1);
+    border-right-color: rgba(122, 183, 142, 1);
+    border-bottom-color: rgba(255, 177, 38, 1);
+    border-left-color: rgba(241, 139, 41, 1);
+    }
+    to {
+    border-top-color:  rgba(156, 206, 228, 1);
+    border-right-color: rgba(122, 183, 142, 1);
+    border-bottom-color: rgba(255, 177, 38, 1);
+    border-left-color: rgba(241, 139, 41, 1);
+    }
+  }

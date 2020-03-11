@@ -34,9 +34,8 @@ const keys = document.querySelectorAll('.key');
 
 
 const rees = document.getElementById('audio-col0').querySelectorAll(".col0");
-console.log(rees);
 rees.forEach(ree => ree.muted="true");
-
+console.log(rees);
 
 
 

@@ -24,6 +24,8 @@
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
+  
+
   }
   
   .playing {
@@ -32,8 +34,13 @@
     border-color: #ffc600;
     text-shadow: 0 -40px 100px;
     box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.699), 0 2px 20px 0 rgba(255, 187, 0, 0.699);
+    transition: red 0.25s;
+    animation: rotate 2s infinite;
   }
   
+ 
+
+
   kbd {
     display: block;
     font-size: 4rem;
