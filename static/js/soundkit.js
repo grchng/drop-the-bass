@@ -47,12 +47,15 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key');
 // keys.forEach(key => key.addEventListener('ended',removeTransition));
 
+
+
 // code for muting audio
 // const rees = document.getElementById('audio-col0').querySelectorAll(".col0");
 // rees.forEach(ree => ree.muted="true");
 // console.log(rees);
 
-
-
-
-
+const muteAudio = function (col) {
+    console.log(col);
+    const rees = document.getElementById(`audio-${col}`).querySelectorAll(`.${col}`)
+}
+// muteAudio("col0");
