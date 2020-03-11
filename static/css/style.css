@@ -32,22 +32,22 @@
     border-left-color: rgba(241, 188, 41, 0.966); }
   25% {
     border-right-color: #9ccee4;
-    border-bottom-color: rgba(68, 214, 250, 0.699);
+    border-bottom-color: rgba(140, 177, 255, 0.63);
     border-left-color: #ffb126;
     border-top-color: rgba(241, 188, 41, 0.966); }
   50% {
     border-bottom-color: #9ccee4;
-    border-left-color: rgba(68, 214, 250, 0.699);
+    border-left-color: rgba(140, 177, 255, 0.63);
     border-top-color: #ffb126;
     border-right-color: rgba(241, 188, 41, 0.966); }
   75% {
     border-left-color: #9ccee4;
-    border-top-color: rgba(68, 214, 250, 0.699);
+    border-top-color: rgba(140, 177, 255, 0.63);
     border-right-color: #ffb126;
     border-bottom-color: rgba(241, 188, 41, 0.966); }
   100% {
     border-top-color: #9ccee4;
-    border-right-color: rgba(68, 214, 250, 0.699);
+    border-right-color: rgba(140, 177, 255, 0.63);
     border-bottom-color: #ffb126;
     border-left-color: rgba(241, 188, 41, 0.966); } }
 

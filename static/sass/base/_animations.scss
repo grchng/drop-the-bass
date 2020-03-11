@@ -32,35 +32,35 @@
     }
   }
 
+
   @keyframes rotate {
     0% {
       border-top-color:  rgba(156, 206, 228, 1);
       border-right-color: rgba(140, 177, 255, 0.63);
       border-bottom-color: rgba(255, 177, 38, 1);
       border-left-color: rgba(241, 188, 41, 0.966);
-      
     }
     25% {
       border-right-color:  rgba(156, 206, 228, 1);
-      border-bottom-color: rgba(140, 177, 255, 0.63));
+      border-bottom-color: rgba(140, 177, 255, 0.63);
       border-left-color: rgba(255, 177, 38, 1);
       border-top-color: rgba(241, 188, 41, 0.966);
     }
     50% {
       border-bottom-color:  rgba(156, 206, 228, 1);
-      border-left-color: rgba(140, 177, 255, 0.63));
+      border-left-color: rgba(140, 177, 255, 0.63);
       border-top-color: rgba(255, 177, 38, 1);
       border-right-color: rgba(241, 188, 41, 0.966);
     }
     75% {
       border-left-color:  rgba(156, 206, 228, 1);
-      border-top-color: rgba(140, 177, 255, 0.63));
+      border-top-color: rgba(140, 177, 255, 0.63);
       border-right-color: rgba(255, 177, 38, 1);
       border-bottom-color: rgba(241, 188, 41, 0.966);
     }
     100% {
             border-top-color:  rgba(156, 206, 228, 1);
-      border-right-color: rgba(140, 177, 255, 0.63));
+      border-right-color: rgba(140, 177, 255, 0.63);
       border-bottom-color: rgba(255, 177, 38, 1);
       border-left-color: rgba(241, 188, 41, 0.966);
     }
