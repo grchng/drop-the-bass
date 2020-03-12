@@ -12,7 +12,7 @@ TECH STACK |
   <img alt="css" src="https://icongr.am/devicon/css3-original.svg?size=70"></a>
 <img src="https://icongr.am/devicon/sass-original.svg?size=70">
 
-<p>Built with CYMATICS x TrapCity Sound Pack </p>
+<sub>Built with CYMATICS x TrapCity Sound Pack </sub>
 
 ### Users can click or use keys to interact with the launchpad.
 ![Launchpad](./static/img/8x8launchpad.JPG)
