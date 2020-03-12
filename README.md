@@ -1,7 +1,7 @@
 ![Drop the Bass](./static/img/droptheb-banner.JPG)
-<p align="center">Built with CYMATICS x TrapCity Sound Pack </p>
+<sub align="center">Built with CYMATICS x TrapCity Sound Pack </sub>
 
-## [L I V E  D E M O] (https://xerilius.github.io/drop-the-bass) 
+[L I V E  D E M O] (https://xerilius.github.io/drop-the-bass) 
 
 <b>TECH STACK</b> | Vanilla JavaScript | HTML/CSS | SASS <br>
 
