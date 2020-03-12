@@ -3,7 +3,7 @@
 <a href="https://xerilius.github.io/drop-the-bass">LIVE DEMO </a> ]
 </h3>
 
-<b><u>TECHNOLOGIES<u><b> <br>
+<b><u>TECHNOLOGIES</u></b> <br>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
   <img alt="js" src="https://icongr.am/devicon/javascript-original.svg?size=70"></a> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
