@@ -1,6 +1,6 @@
 ![Drop the Bass](./static/img/droptheb-banner.JPG)
-<h3 align="center"> [
-<a href="https://xerilius.github.io/drop-the-bass">LIVE DEMO </a> ]
+<h3 align="center"> 🎼
+<a href="https://xerilius.github.io/drop-the-bass">L I V E D E M O </a> ✨
 </h3>
 
 <b><ins>TECHNOLOGIES</ins></b> <br>
