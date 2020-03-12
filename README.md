@@ -2,7 +2,7 @@
 <p align="center">Built with CYMATICS x TrapCity Sound Pack </p>
 <b>TECH STACK</b> | Vanilla JavaScript | HTML/CSS | SASS <br>
 
-Check it out <[HERE](https://xerilius.github.io/drop-the-bass)>.
+Check it out <[HERE](https://xerilius.github.io/drop-the-bass)>
 
-### Users can click or use keyboard keys to interact with the launchpad.
+### Users can click or use keys to interact with the launchpad.
 ![Launchpad](./static/img/8x8launchpad.JPG)
