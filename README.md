@@ -1,6 +1,7 @@
 ![Drop the Bass](./static/img/droptheb-banner.JPG)
 Drop the Bass is an 8x8 launchpad emulator built with CYMATICS x TrapCity Sound Pack. </br>
-Always wanted DJ equipment so I made a virtual one!
+Always wanted DJ equipment so I made a scrappy virtual one! </br>
+🚧WorkInProgress🚧 
 
 <h3 align="center"> 🎼
 <a href="https://xerilius.github.io/drop-the-bass">L I V E D E M O </a> ✨
